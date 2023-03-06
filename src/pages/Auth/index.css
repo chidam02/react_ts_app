@@ -1,0 +1,22 @@
+.auth-form-wrapper {
+  display: inline-block;
+  background: #ffffff;
+  box-shadow: 1.06526px 1.06526px 10.6526px rgba(0, 0, 0, 0.1);
+  border-radius: 17.2953px;
+  width: 678px;
+  height: 629px;
+
+  text-align: center;
+
+  padding: 31px 126px 55px 126px;
+}
+.auth-form-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+}
+.auth-form-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}

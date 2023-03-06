@@ -1,0 +1,33 @@
+.textfield-wrapper {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.form-control.custom {
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  font-size: 16px;
+
+  background: #f3f3ff;
+  border-radius: 12.1768px;
+  color: rgba(0, 0, 0, 0.35);
+  padding: 0.75em;
+  padding-right: calc(24px + 1em);
+}
+
+.form-control-right-icon {
+  position: absolute;
+  right: 0.75em;
+  bottom: 0.85em;
+}
+.form-control-label {
+  display: block;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 0.25em;
+  margin-left: 0.25em;
+  text-align: left;
+}

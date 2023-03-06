@@ -1,0 +1,16 @@
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 118px 48px;
+}
+
+.hero-email{
+    margin-top: 64px;
+}
+
+
+
+
+

@@ -1,0 +1,32 @@
+.accordian-container {
+  padding: 24px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.accordian-header {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.accordian-content {
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+.accordian-content.show-content {
+  display: block;
+}
+
+.accordian-content.hide-content {
+  display: none;
+}

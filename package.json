@@ -26,7 +26,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -r https://github.com/chidam02/react_ts_app.git",
 
     "start": "react-scripts start",
     "build": "react-scripts build",

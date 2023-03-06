@@ -71,8 +71,8 @@ export default function* userDetailsSagaLister() {
 //service
 
 class UserDetailsService {
-  private static domain: string = process.env.REACT_APP_API_URL??"http://localhost:5000";
-
+  private static domain: string = process.env.REACT_APP_API_URL??"https://express-first-app.onrender.com";
+    
   static createUser = (data: IUserDetailsState) => {
     return axios.post(`${this.domain}/register`, data);
   };

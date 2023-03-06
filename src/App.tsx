@@ -14,6 +14,7 @@ function App() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
+  console.log(process.env.REACT_APP_API_URL);
 
   useEffect(()=>{
     if(userDetails.userDetailsState.accessToken){
